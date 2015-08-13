@@ -1,0 +1,21 @@
+{
+  "name": "hexor",
+  "description": "Random crypto stuff.",
+  "version": "0.0.0",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.2.5"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "author": "David Schoen <dave@lyte.id.au>",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --colors --recursive test --reporter spec"
+  }
+}
